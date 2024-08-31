@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar/NavBar";
+import { url } from "inspector";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        style={{
+          backgroundImage: 'url("assets/header-bg.png")',
+          backgroundSize: "contain",
+          backgroundPosition: "top center",
+          backgroundRepeat: "no-repeat",
+        }}
+        className={`${inter.className} container mx-auto bg-white`}
+      >
+        <header>
+          <NavBar />
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
