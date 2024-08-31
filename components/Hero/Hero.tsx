@@ -6,7 +6,7 @@ import RoundButton from "../Button/RoundButton";
 
 const Hero = () => {
   return (
-    <section className="w-full h-auto md:h-[35em] flex flex-col md:flex-row  items-center">
+    <section className="w-full pt-10 md:pt-0 h-auto md:h-[35em] flex flex-col md:flex-row  items-center">
       <div className="w-full md:w-1/2 h-full flex flex-col justify-center py-12 sm:py-20 sm:mt-10 gap-6 md:gap-10 px-4 md:px-8 lg:px-16">
         <p className="uppercase tracking-tighter text-[#e8811b] text-lg md:text-xl font-bold">
           Best Destinations Around the World
