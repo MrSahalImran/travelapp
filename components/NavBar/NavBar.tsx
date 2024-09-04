@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import logo from "@/public/assets/Logo.svg";
 import { NAV_CONTENT } from "@/data";
-import { NavItem } from "@/types";
+import { NavItemType } from "@/types";
 import MobileNav from "./MobileNav";
 
 const NavBar = () => {
@@ -45,7 +45,7 @@ const NavBar = () => {
       </div>
       <div className="navitems">
         <menu className="hidden md:flex md:pr-20 xl:pr-0 gap-8 xl:gap-20 ">
-          {NAV_CONTENT.map((item: NavItem) => (
+          {NAV_CONTENT.map((item: NavItemType) => (
             <li key={item.title}>
               <Link
                 href={"/"}

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import navIcon from "@/public/assets/Navigation.svg";
-import { DestionationInfo } from "@/types";
+import { DestinationInfoType } from "@/types";
 
 const DestinationCard = ({
   imgSrc,
   title,
   dollars,
   trip,
-}: DestionationInfo) => {
+}: DestinationInfoType) => {
   return (
     <div className="w-full max-w-[22rem] shadow-md transform transition-transform duration-300 hover:scale-105 h-[26rem] rounded-3xl overflow-hidden flex flex-col">
       <Image

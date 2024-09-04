@@ -9,7 +9,7 @@ import {
   SheetTitle,
 } from "../ui/sheet";
 import { NAV_CONTENT } from "@/data";
-import { NavItem } from "@/types";
+import { NavItemType } from "@/types";
 import logo from "@/public/assets/Logo.svg";
 
 const MobileNav = () => {
@@ -35,7 +35,7 @@ const MobileNav = () => {
           />
         </SheetHeader>
 
-        {NAV_CONTENT.map((item: NavItem) => (
+        {NAV_CONTENT.map((item: NavItemType) => (
           <SheetTitle
             key={item.title}
             className={`text-[#181e4b] flex py-2 justify-center capitalize font-medium text-[17] font-[Goolge Sans] ${

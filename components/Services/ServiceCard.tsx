@@ -1,7 +1,7 @@
-import { ServiceCardProps } from "@/types";
+import { ServiceCardPropsType } from "@/types";
 import Image from "next/image";
 
-const ServiceCard = ({ imgSrc, title, description }: ServiceCardProps) => {
+const ServiceCard = ({ imgSrc, title, description }: ServiceCardPropsType) => {
   return (
     <div className="p-5 hover:shadow-2xl hover:shadow-slate-400 rounded-xl w-full flex items-center flex-col gap-3 bg-white shadow-md transform transition-transform duration-300 hover:scale-105">
       <Image

@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const NAV_CONTENT = [
   { title: "destination", type: "text" },
   { title: "hotels", type: "text" },
@@ -70,5 +72,19 @@ export const DESTINATION_INFO = [
     title: "Full Europe",
     dollars: "15",
     trip: "28",
+  },
+];
+
+export const BOOKING_INFO = [
+  {
+    imgSrc: "/assets/rectangle.svg",
+    title: "Choose Destination",
+    color: "#F0BB1F",
+  },
+  { imgSrc: "/assets/watersport.svg", title: "Make Payment", color: "#F15A2B" },
+  {
+    imgSrc: "/assets/taxi.svg",
+    title: "Reach Airport on Selected Date",
+    color: "#006380",
   },
 ];
