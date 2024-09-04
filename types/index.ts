@@ -8,3 +8,15 @@ export type ServiceCardProps = {
   title: string;
   description: string;
 };
+
+export type Heading = {
+  subHeading: string;
+  heading: string;
+};
+
+export type DestionationInfo = {
+  imgSrc: string;
+  title: string;
+  trip: string;
+  dollars: string;
+};

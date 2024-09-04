@@ -32,3 +32,43 @@ export const SERVICES = [
       "We deliver outsourced aviation services for military customers",
   },
 ];
+
+export const SECTION_HEADING = {
+  Services: {
+    subHeading: "CATEGORY",
+    heading: "We Offer Best Services",
+  },
+  Destination: {
+    subHeading: "Top Selling",
+    heading: "Top Destinations",
+  },
+  Trip: {
+    subHeading: "Easy and Fast",
+    heading: "Book You Next Trip In 3 Easy Steps",
+  },
+  Testimonial: {
+    subHeading: "TESTIMONIALS",
+    heading: "What People Say About Us.",
+  },
+};
+
+export const DESTINATION_INFO = [
+  {
+    imgSrc: "/assets/rome.png",
+    title: "Rome,Italy",
+    dollars: "5,42",
+    trip: "10",
+  },
+  {
+    imgSrc: "/assets/london.png",
+    title: "London,UK",
+    dollars: "4,2",
+    trip: "12",
+  },
+  {
+    imgSrc: "/assets/europe.png",
+    title: "Full Europe",
+    dollars: "15",
+    trip: "28",
+  },
+];
