@@ -27,3 +27,8 @@ export type BookInfoType = {
   imgSrc: string;
   title: string;
 };
+
+export type FooterLinkType = {
+  title: string;
+  links: string[];
+};

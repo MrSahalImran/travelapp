@@ -88,3 +88,18 @@ export const BOOKING_INFO = [
     color: "#006380",
   },
 ];
+
+export const FOOTER_SECTIONS = [
+  {
+    title: "Company",
+    links: ["About", "Careers", "Mobile"],
+  },
+  {
+    title: "Contact",
+    links: ["Help/FAQ", "Press", "Affiliates"],
+  },
+  {
+    title: "More",
+    links: ["Airline Fees", "Airline", "Low Fare Tips"],
+  },
+];

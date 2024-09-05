@@ -31,7 +31,7 @@ const Hero = () => {
           the.
         </p>
         <div className="flex flex-col md:flex-row justify-start gap-4 md:gap-10">
-          <Button text={"Find out more"} color={"yellow-300"} />
+          <Button text={"Find out more"} color={"#F1A501"} />
           <RoundButton />
         </div>
       </div>

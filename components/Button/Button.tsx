@@ -6,7 +6,11 @@ type Props = {
 const Button = ({ text, color }: Props) => {
   return (
     <button
-      className={`px-8 py-2 text-sm text-white bg-yellow-500 rounded-md shadow-lg shadow-yellow-200 `}
+      style={{
+        backgroundColor: color,
+        boxShadow: `0 4px 10px ${color}`,
+      }}
+      className={`px-8 py-2 text-sm text-white b rounded-md  `}
     >
       {text}
     </button>
