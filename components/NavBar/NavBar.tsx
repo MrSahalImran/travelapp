@@ -15,10 +15,8 @@ const NavBar = () => {
     const handleScroll = () => {
       const currentOffset = window.scrollY;
       if (currentOffset > prevOffset) {
-        // Scrolling down
         setIsScrolled(true);
       } else {
-        // Scrolling up
         setIsScrolled(false);
       }
       setPrevOffset(currentOffset);
@@ -32,7 +30,7 @@ const NavBar = () => {
   }, [prevOffset]);
   return (
     <nav
-      className={`sm:bg-[#fff1da] md:bg-transparent w-screen  max-w-screen-xl fixed top-0 md:left-auto left-0 py-3 md:py-5 xl:py-10 z-50 flex items-center justify-between px-4 md:px-8 ${
+      className={`sm:bg-[#fff1da] md:bg-transparent w-screen  max-w-screen-xl fixed top-0 md:left-auto left-0 py-3 bg-white bg-opacity-70 backdrop-filter backdrop-blur-lg md:py-5 xl:py-8 z-50 flex items-center justify-between px-4 md:px-8 ${
         isScrolled
           ? "-translate-y-full transition-transform duration-300"
           : "translate-y-0"

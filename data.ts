@@ -103,3 +103,13 @@ export const FOOTER_SECTIONS = [
     links: ["Airline Fees", "Airline", "Low Fare Tips"],
   },
 ];
+
+export const MARQUEE_SECTIONS = [
+  { imgSrc: "/assets/axon.svg", title: "axon" },
+  { imgSrc: "/assets/jetstar.svg", title: "jetstar" },
+  { imgSrc: "/assets/expedia.svg", title: "expedia" },
+  { imgSrc: "/assets/qanta.svg", title: "qanta" },
+  { imgSrc: "/assets/alitalia.svg", title: "alitalia" },
+];
+export const TESTIMONIALS_COMMENT =
+  "“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”";

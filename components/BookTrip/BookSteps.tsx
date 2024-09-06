@@ -5,7 +5,6 @@ import { BookInfoType } from "@/types";
 const BookSteps = ({ imgSrc, title, color }: BookInfoType) => {
   return (
     <div className="flex flex-col px-4 sm:flex-row items-center gap-4 sm:gap-7 mt-10 sm:mt-16">
-      {/* Icon with background color */}
       <div style={{ backgroundColor: color }} className="p-3 rounded-xl">
         <Image src={imgSrc} alt="logo" width={35} height={10} />
       </div>

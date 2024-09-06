@@ -54,39 +54,41 @@ const Footer = () => {
             <Image
               className="transform transition-transform duration-300 hover:scale-110"
               src={facebook}
-              width={16} // Reduced size for lg
-              height={16} // Reduced size for lg
+              width={16}
+              height={16}
               alt="facebook"
             />
             <Image
               className="transform transition-transform duration-300 hover:scale-110"
               src={instagram}
-              width={60} // Reduced size for lg
-              height={30} // Reduced size for lg
+              width={60}
+              height={30}
               alt="instagram"
             />
             <Image
               className="transform transition-transform duration-300 hover:scale-110"
               src={twitter}
-              width={24} // Reduced size for lg
-              height={16} // Reduced size for lg
+              width={24}
+              height={16}
               alt="twitter"
             />
           </div>
-          <p className="font-medium text-[#5E6282] text-lg">Discover our app</p>
-          <div className="flex gap-2">
+          <p className="font-medium text-[#5E6282] text-center text-lg">
+            Discover our app
+          </p>
+          <div className="flex gap-2 justify-center">
             <Image
               className="hover:cursor-pointer transform transition-transform duration-300 hover:scale-105"
               src={playStore}
-              width={120} // Reduced size for lg
-              height={35} // Reduced size for lg
+              width={120}
+              height={35}
               alt="play store"
             />
             <Image
               className="hover:cursor-pointer transform transition-transform duration-300 hover:scale-105"
               src={appStore}
-              width={120} // Reduced size for lg
-              height={35} // Reduced size for lg
+              width={120}
+              height={35}
               alt="app store"
             />
           </div>
