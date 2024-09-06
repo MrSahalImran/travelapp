@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row lg:gap-8 xl:gap-20   text-center md:text-left mb-5 md:mb-0">
             {FOOTER_SECTIONS.map((item) => (
               <div key={item.title}>
-                <h1 className="font-bold text-xl mb-5">{item.title}</h1>
+                <h1 className="font-bold text-xl  mt-6 mb-3">{item.title}</h1>
                 {item.links.map((link, index) => (
                   <p
                     key={index}
@@ -96,7 +96,7 @@ const Footer = () => {
       </div>
 
       {/* Footer bottom text */}
-      <div className="mt-10">
+      <div className="my-10">
         <p className="text-center text-lg font-medium text-[#5E6282]">
           All rights reserved @jadoo.co
         </p>
