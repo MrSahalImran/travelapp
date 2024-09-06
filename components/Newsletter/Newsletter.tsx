@@ -12,7 +12,7 @@ const Newsletter = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="flex relative w-[95%] h-[24rem] sm:h-[28rem] rounded-2xl overflow-hidden md:h-[20rem] sm:p-5 mt-20 flex-col justify-center items-center"
+      className="flex relative w-[95%] h-[24rem] sm:h-[28rem] rounded-2xl md:h-[20rem] sm:p-5 mt-20 flex-col justify-center items-center"
     >
       <h1 className="text-[20px] md:text-[27px] lg:text-[33px] font-semibold text-center w-[70%] leading-relaxed text-[#5E6282]">
         Subscribe to get information, latest news and other interesting offer
